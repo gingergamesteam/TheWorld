@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{81B55AAE-CAC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EB7916A-BA2C-448F-9624-34A5E6C4C91E}"
 	ProjectSection(SolutionItems) = preProject
+		.bowerrc = .bowerrc
+		bower.json = bower.json
 		global.json = global.json
 	EndProjectSection
 EndProject
