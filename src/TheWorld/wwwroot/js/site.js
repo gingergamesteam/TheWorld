@@ -1,15 +1,33 @@
 ﻿
-"use strict";
+
 (function () {
-    var ele = document.getElementById("username");
-    ele.innerHTML = "Solar City";
 
-    var main = document.getElementById("main");
-    main.onmouseenter = function () {
-        main.style.backgroundColor = "#888";
-    };
+    //var ele = $("#username");
+    //ele.text = "Solar City 2";
 
-    main.onmouseleave = function () {
-        main.style.backgroundColor = "";
-    };
+    //var main = document.getElementById("main");
+    //main.on =("mouseenter", function () {
+    //    main.style.backgroundColor = "#888";
+    //});
+
+    //main.on("mouseleave", function () {
+    //    main.style.backgroundColor = "";
+    //});
+
+    //var menuItems = $("ul,menu li a");
+    //menuItems.on("click", function () {
+    //    var me = $(this);
+    //    alert(me.text());
+    //});
+
+    var $sidebarAndWrapper = $("#sidebar,#wrapper");
+
+    $("#sidebarToggle").on("click", function () {
+        $sidebarAndWrapper.toggleClass("hide-sidebar");
+        if ($sidebarAndWrapper.hasClass("hide-sidebar")) {
+            $(this).text("Show Sidebar");
+        } else {
+            $(this).text("Hide Sidebar");
+        }
+    });
 })();

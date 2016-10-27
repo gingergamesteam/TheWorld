@@ -59,3 +59,11 @@ input[type=text], input[type= password], textarea {
 #wrapper {
     margin: 0 0 0 250px;
 }
+
+    #wrapper.hide-sidebar {
+        margin-left: 0;
+    }
+
+#sidebar.hide-sidebar{
+    left: -250px;
+}
