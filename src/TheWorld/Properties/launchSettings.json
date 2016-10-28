@@ -20,6 +20,7 @@
       "launchBrowser": true,
       "launchUrl": "http://localhost:5000",
       "environmentVariables": {
+        "MailSettings__ToAdress": "Gates@gates,org",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
