@@ -53,6 +53,8 @@ namespace TheWorld
             if(env.IsEnvironment("Development"))
             { 
                 app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
+                app.UseDeveloperExceptionPage();
             }
 
             app.UseStaticFiles();
